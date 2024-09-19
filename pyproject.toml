@@ -9,6 +9,9 @@ readme = "README.md"
 python = "^3.11"
 # autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
 autom = { path = "/home/steve/workspace/autom" }
+google-api-python-client = "^2.146.0"
+google-auth-httplib2 = "^0.2.0"
+oauth2client = "^4.1.3"
 
 [tool.autom]
 qualifier = "form_ever"
