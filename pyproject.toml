@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "form_ever"
+version = "0.1.0"
+description = "Form Ever 📝 is an AI-powered agent that simplifies the process of creating smart surveys. Effortlessly distribute them and get detailed analysis 📊, giving you the insights you need. Whether for business, research, or general feedback collection, Form Ever makes survey management easy and efficient 🤖."
+authors = ["stevieflyer"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
+autom = { path = "/home/steve/workspace/autom" }
+
+[tool.autom]
+qualifier = "form_ever"
+name = "Form Ever"
+owner_qualifier = "stevieflyer"
+owner_email = "steveflyer7@gmail.com"
+description = "Form Ever 📝 is an AI-powered agent that simplifies the process of creating smart surveys. Effortlessly distribute them and get detailed analysis 📊, giving you the insights you need. Whether for business, research, or general feedback collection, Form Ever makes survey management easy and efficient 🤖."
+python_version = "3.11"
+python_version_spec = "^3.11"
+publicity = "public"
+github_repo_url = "https://github.com/stevieflyer/form_ever.git"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
