@@ -1,3 +1,4 @@
+from typing import Any
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from autom import AutomSchema, AutomField, autom_registry
@@ -9,6 +10,14 @@ class QuestionaireDesignRequirement(AutomSchema):
         ...,
         description="User requirement on the form design",
     )
+
+    @classmethod
+    def define_examples(cls) -> dict[str, dict]:
+        return {
+            "计划一场同学聚会": {
+                "user_requirement": "我需要统计大学同学聚会的具体时间, 帮我看看10月1日到7日哪天晚上大家有空, 有什么忌口或者偏好?"
+            }
+        }
 
 
 class Item(AutomSchema):

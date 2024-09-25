@@ -179,7 +179,7 @@ tests-mypy = ["mypy (>=1.11.1)", "pytest-mypy-plugins"]
 
 [[package]]
 name = "autom"
-version = "0.0.1.13"
+version = "0.0.1.30"
 description = ""
 optional = false
 python-versions = "^3.11"
