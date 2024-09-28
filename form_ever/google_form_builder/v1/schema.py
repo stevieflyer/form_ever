@@ -1,4 +1,3 @@
-from typing import Any
 from googleapiclient.discovery import build
 from google.oauth2.credentials import Credentials
 from autom import AutomSchema, AutomField, autom_registry
