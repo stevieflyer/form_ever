@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "form_ever"
-version = "0.1.0"
+version = "0.0.1"
 description = "Form Ever 📝 is an AI-powered agent that simplifies the process of creating smart surveys. Effortlessly distribute them and get detailed analysis 📊, giving you the insights you need. Whether for business, research, or general feedback collection, Form Ever makes survey management easy and efficient 🤖."
 authors = ["stevieflyer"]
 readme = "README.md"
@@ -19,6 +19,7 @@ name = "Form Ever"
 owner_qualifier = "steveflyer"
 owner_email = "steveflyer7@gmail.com"
 description = "Form Ever 📝 is an AI-powered agent that simplifies the process of creating smart surveys. Effortlessly distribute them and get detailed analysis 📊, giving you the insights you need. Whether for business, research, or general feedback collection, Form Ever makes survey management easy and efficient 🤖."
+version = "0.0.1"
 python_version = "3.11"
 python_version_spec = "^3.11"
 publicity = "public"
